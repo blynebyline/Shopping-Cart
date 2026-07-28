@@ -1,7 +1,9 @@
 const ShoppingPage = () => {
 
     return (
-        <p>This is where you can find me!</p>
+        <div className="min-h-screen">
+
+        </div>
     )
 }
 

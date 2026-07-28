@@ -1,6 +1,8 @@
 const Home = () => {
     return (
-        <p>Hello World</p>
+        <div className="min-h-screen">
+
+        </div>
     )
 }
 

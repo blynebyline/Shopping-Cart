@@ -1,4 +1,5 @@
 import Logo from "./Logo"
+import { Link } from "react-router"
 
 const Header = () => {
     return (
@@ -8,9 +9,9 @@ const Header = () => {
                 <h2>Hexternal</h2>
             </div>
             <div className="flex items-center gap-8 mx-10"> {/* MAKE IT SO THAT ONLY THIS WILL APPEAR ON MOBILE */}
-                <p>Home</p>
-                <p>Shop</p>
-                <p>Cart</p>
+                <Link to={"/"}>Home</Link>
+                <Link to={"/shopping"}>Shop</Link>
+                <Link to={"cart"}>Cart</Link>
             </div>
         </header>
     )

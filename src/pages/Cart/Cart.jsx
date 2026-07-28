@@ -1,6 +1,8 @@
 const CartPage = () => {
     return (
-        <p>Cart Page</p>
+        <div className="min-h-screen">
+
+        </div>
     )
 }
 
