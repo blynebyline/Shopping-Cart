@@ -4,6 +4,7 @@ import Home from './pages/Home/Home'
 import ShoppingPage from './pages/Shopping/Shopping'
 import CartPage from './pages/Cart/Cart'
 import NotFoundPage from './error/Notfoundpage'
+import { CartProvider } from './context/cartContext'
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,11 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return <RouterProvider router={router} />
+  return (
+    <CartProvider>
+      <RouterProvider router={router} />
+    </CartProvider>
+  )
 }
 
 export default App
