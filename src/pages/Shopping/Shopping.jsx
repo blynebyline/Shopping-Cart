@@ -1,5 +1,5 @@
 import useCart from "../../hooks/useCart";
-import useProducts from "../../hooks/UseProducts"
+import useProducts from "../../hooks/useProducts"
 
 const ShoppingPage = () => {
     const { products, loading } = useProducts();
