@@ -18,4 +18,9 @@
 
 @theme{
     --margin-footer: 16px;
+    --width-icon: 16px;
+}
+
+.header-icon{
+    @apply flex justify-center items-center gap-1
 }
