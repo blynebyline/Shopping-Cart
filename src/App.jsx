@@ -3,7 +3,7 @@ import Layout from './components/Layout'
 import Home from './pages/Home/Home'
 import ShoppingPage from './pages/Shopping/Shopping'
 import CartPage from './pages/Cart/Cart'
-import NotFoundPage from './error/Notfoundpage'
+import NotFoundPage from './error/NotFoundPage'
 import { CartProvider } from './context/cartContext'
 
 const router = createBrowserRouter([
